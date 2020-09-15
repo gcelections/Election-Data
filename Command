@@ -1,0 +1,7 @@
+echo "# Election-Data" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/gcelections/Election-Data.git
+git push -u origin master
